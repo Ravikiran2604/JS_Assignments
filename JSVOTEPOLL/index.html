@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOTING POLL</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div id="head">
+                <h1>VOTE YOUR LANGUAGE!</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div id="lang1">
+                <input type="text" id="count1" value="0" style="width: 130px;";></input>
+                <h5>ReactJS</h5>
+                <button id="btn" onclick="buttonClick1();">Click Here</button>
+            </div>
+            <div id="lang2">
+                <input type="text" id="count2" value="0" style="width: 130px;";></input>
+                <h5>NodeJS</h5>
+                <button id="btn" onclick="buttonClick2();">Click Here</button>
+            </div>
+            <div id="lang3">
+                <input type="text" id="count3" value="0" style="width: 130px;";></input>
+                <h5>ExpressJS</h5>
+                <button id="btn" onclick="buttonClick3();">Click Here</button>
+            </div>
+            <div id="lang4">
+                <input type="text" id="count4" value="0" style="width: 130px;";></input>
+                <h5>Java</h5>
+                <button id="btn" onclick="buttonClick4();">Click Here</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        var i = 0;
+        function buttonClick1() {
+            i++;
+            document.getElementById('count1').value = i;
+        }
+        var j=0;
+        function buttonClick2() {
+            j++;
+            document.getElementById('count2').value = j;
+        }
+        var k=0;
+        function buttonClick3() {
+            k++;
+            document.getElementById('count3').value = k;
+        }
+        var a=0;
+        function buttonClick4() {
+            a++;
+            document.getElementById('count4').value = a;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+.row
+{
+    position: relative;
+    left: 550px;
+}
+#head h1
+{
+    position: relative;
+    left: 55px;
+}
+#lang1 h5
+{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+#lang1
+{
+    background:linear-gradient(#0072FF,#00C6FF);
+    height: 90px;
+    width: 500px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    margin-bottom: 2px;
+    color: whitesmoke;
+}
+
+#lang2 h5
+{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+#lang2
+{
+    background:linear-gradient(#0072FF,#00C6FF);
+    height: 90px;
+    width: 500px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    margin-bottom: 2px;
+    color: whitesmoke;
+}
+#lang3 h5
+{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+#lang3
+{
+    background:linear-gradient(#0072FF,#00C6FF);
+    height: 90px;
+    width: 500px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    margin-bottom: 2px;
+    color: whitesmoke;
+}
+#lang4 h5
+{
+    display: inline-block;
+    margin-right: 65px;
+}
+
+#lang4
+{
+    background:linear-gradient(#0072FF,#00C6FF);
+    height: 90px;
+    width: 500px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    margin-bottom: 2px;
+    color: whitesmoke;
+}
+
+
+#count1,#count2,#count3,#count4
+{
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn
+{
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
